@@ -1,0 +1,597 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Unbounded;
+  text-decoration: none;
+  list-style: none;
+}
+
+html,
+body {
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+/*------------
+     NAVBAR
+--------------*/
+
+#navbar {
+  background-color: #212121;
+}
+
+#navcolor {
+  background-color: #212121;
+}
+
+.navbar-nav {
+  border-radius: 20px;
+}
+
+#boton-suscripcion{
+  margin-right: 10px;
+}
+
+
+@media (min-width: 1000px) {
+  .navbar-nav {
+    background-color: #ffbc0d;
+  }
+}
+
+@media (max-width: 820px){
+  #boton-suscripcion{
+    margin-bottom: 10px;
+  }
+}
+
+/*-------------
+    BUSCADOR
+---------------*/
+#buscador {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+#form-buscador {
+  margin: auto;
+}
+
+#form-buscador > div {
+  display: flex;
+  padding: 9px 22px 9px 26px;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  box-shadow: rgba(255, 255, 255, 0.5) -8px -8px 15px,
+    rgba(0, 0, 0, 0.1) 10px 10px 10px,
+    rgba(255, 255, 255, 0.5) -8px -8px 15px inset,
+    rgba(0, 0, 0, 0.1) 10px 10px 10px inset;
+  margin-bottom: 20px;
+}
+
+#form-buscador input {
+  border: none;
+  background: transparent;
+  font-weight: bold;
+  padding-left: 24px;
+}
+
+#form-buscador input:focus {
+  outline: none;
+  width: 300px;
+}
+
+/*------------------
+   PAGINA PRINCIPAL
+--------------------*/
+
+.h1principal {
+  background-color: #db0007;
+  border-radius: 10px;
+}
+
+#pgprin {
+  background-color: black;
+  border-radius: 50px;
+}
+
+.hambur {
+  background-color: #db0007;
+}
+
+.hambur2 {
+  background-color: #db0007;
+}
+
+.hambur3 {
+  background-color: #db0007;
+}
+
+/*-------------------------
+    PAGINA DE ENTRADAS         
+-------------------------*/
+
+#entradas-food{
+  padding-bottom: 50px;
+}
+#bodycheddar {
+  background-color: #fff;
+}
+
+#h2entrada {
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#cheddar {
+  background-color: #db0007;
+  border-radius: 20px;
+}
+
+#cheddarimagen {
+  border-radius: 20px;
+}
+
+#cheddarreseñas {
+  background-color: #db0007;
+  color: white;
+  align-items: center;
+}
+
+#comentarios {
+  background-color: #ffbc0d;
+  border-radius: 10px;
+  margin-top: 50px;
+  border: solid black;
+}
+
+/*---------------
+      ERROR404 
+-----------------*/
+#bodyerror {
+  background-color: #ffbc0d;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Kanit", sans-serif;
+}
+#imgerror {
+  width: 50%;
+}
+
+#error404 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+#errorh1 {
+  color: #db0007;
+  font-size: 30px;
+  padding: 20px;
+  margin: 10px;
+}
+
+#errorbutton {
+  padding: 15px 30px;
+  border-radius: 15px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+#errorbutton @media screen and (max-width: 630px) {
+  font-size: 16px;
+}
+
+#containter {
+  float: right;
+}
+
+.banner_img {
+  float: right;
+  animation: movimiento 2.5s linear infinite;
+}
+
+@keyframes movimiento {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/*---------------------
+   GALERIA DE IMAGENES
+-----------------------*/
+
+#bodygaleria {
+  background-color: #fcca31;
+  background: url(../img/mcborroso-.jpg);
+
+}
+
+#contenido-galeria{
+
+  padding-bottom: 50px;
+}
+
+#galeriatitulo {
+  text-align: center;
+  margin-top: 0px;
+  color: #ffff;
+  background-color: #bd0017;
+}
+
+#galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px;
+}
+
+#galeria img {
+  width: 100%;
+  height: 250px;
+}
+
+#galeria img:hover {
+  border: 5px solid #ffffff;
+}
+
+#combo:hover {
+  border: 5px solid #ffffff;
+  transition: cubic-bezier();
+}
+
+/*------------------
+      FOOTER
+-------------------*/
+
+#container-fluid-footer {
+  background-color: #212121;
+}
+
+/*-----------------
+    APARTADO LOGO
+-------------------*/
+#logo-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#img-logo-footer {
+  padding-top: 30px;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+#container-img-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+/*---------------------------------
+   APARTADO DE HORARIOS DE ATENCION
+-----------------------------------  */
+
+#col-footer {
+  color: white;
+}
+
+/*----------------------------
+   APARTADO DE REDES SOCIALES 
+ ----------------------------*/
+
+#lista-redes-footer {
+  text-align: left;
+}
+
+#lista-redes-footer ul li {
+  padding: 5px;
+  color: white;
+}
+
+#redes-footer a {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: white;
+  margin-right: 10px;
+  background-color: #bd0016b1;
+  border-radius: 20%;
+  text-align: center;
+  text-decoration: none;
+}
+
+#redes-footer a:hover {
+  background-color: #bd0016;
+  width: 60px;
+  height: 50px;
+  font-size: 25px;
+}
+
+#redes-footer a:active {
+  background-color: #bd0016;
+  width: 60px;
+  height: 50px;
+  font-size: 25px;
+}
+
+/*---------------------
+   DERECHOS DEL AUTOR
+----------------------*/
+
+#small-footer {
+  background-color: #bd0017;
+  padding: 15px 10px;
+  text-align: center;
+  color: #efefef;
+}
+#container-fluid-footer {
+  background-color: #212121;
+}
+
+
+
+
+
+/*-------------------
+      CONTACTANOS
+---------------------*/
+
+#bodycontacto {
+  background-color: #fff;
+}
+
+#main-contactanos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+#container-contactanos {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  background-color: #e8e5e5;
+  background-size: cover;
+}
+
+#col-contactanos-izquierda {
+  padding: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#col-contactanos-derecha {
+  padding: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#col-contactanos-izquierda {
+  background: url(../img/McDonalds-MAP2.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.derecha-contactanos {
+  padding: 25px;
+}
+
+.derecha-contactanos h2 {
+  position: relative;
+  padding: 0 0 10px;
+  margin-bottom: 10px;
+  border-bottom: 4px solid #fcca31;
+}
+.derecha-contactanos textarea {
+  height: 100px;
+  width: 100%;
+  resize: none;
+}
+.box-contactanos {
+  width: 100%;
+  border: 0 solid rgba(0, 0, 0, 0);
+  outline: none;
+  background-color: rgba(230, 230, 230, 0.6);
+  padding: 5px 15px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.box-contactanos:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.box-contactanos:focus {
+  border: 1px solid rgba(30, 85, 250, 0.47);
+  background-color: #fff;
+}
+
+#btn-contactanos {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #fcca31;
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+}
+
+#btn-contactanos:hover {
+  background-color: #bd0017;
+}
+
+#main-login {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+}
+
+#Container-login {
+  background-color: #e8e5e5;
+}
+
+#col-izquierda-login {
+  padding: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#izquierda-login {
+  padding: 25px 40px;
+}
+
+#titulo-login h1 {
+  position: relative;
+  padding: 0 0 10px;
+  margin-bottom: 10px;
+  border-bottom: 4px solid #fcca31;
+}
+
+/*--------------
+      LOGIN
+----------------*/
+
+
+#main-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#Container-login {
+  background-color: #f6f6f6;
+}
+
+#col-izquierda-login {
+  padding: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#izquierda-login {
+  padding: 25px 40px;
+}
+
+#titulo-login h1 {
+  position: relative;
+  padding: 0 0 10px;
+  margin-bottom: 10px;
+  border-bottom: 4px solid #fcca31;
+}
+
+
+/*--------------------
+ FORMULARIO ESTILOS
+ --------------------- */
+
+#box-login {
+  width: 100%;
+  border: 0 solid rgba(0, 0, 0, 0);
+  outline: none;
+  padding: 5px 15px;
+  font-size: 20px;
+  margin-bottom: 15px;
+  background-color: rgba(230, 230, 230, 0.6);
+}
+#box-login:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#box-login:focus {
+  border: 1px solid rgba(30, 85, 250, 0.47);
+  background-color: #fff;
+}
+#btn-login {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #fcca31;
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+}
+#btn-login:hover {
+  background-color: #bd0017;
+}
+
+/*--------------
+     NOSOTROS
+----------------*/
+
+#contenido-nosotros{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#titulo-nosotros {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#titulo-nosotros h1 {
+  border-bottom: 3px solid #ffbc0d;
+}
+
+#tarjeta-nosotros {
+  background-color: #e8e5e5;
+  border-radius: 2cqmin;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 5px;
+}
+#foto-nosotros img {
+  border-radius: 50%;
+}
+
+#info-nosotros h3 {
+  color: #db0007;
+  padding-top: 5px;
+}
+
+#info-nosotros hr {
+  border: 3px solid #ffbc0d;
+}

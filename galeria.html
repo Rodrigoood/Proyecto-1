@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeria</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="shortcut icon" href="./img/mac logo.png" type="image/x-icon" />
+  </head>
+
+
+
+
+  <header>
+    <nav id="navbar" class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler bg-body-tertiary"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" target="_blank" href="./index.html"
+          ><img
+            src="./img/mac_logo.png"
+            alt=""
+            width="100px
+          "
+        /></a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-current="page" target="_blank" href="./Contacto.html"
+                ><h3>Contacto</h3></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" target="_blank" href="./Nosotros.html"><h3>Nosotros</h3></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" target="_blank" href="./galeria.html"><h3>Galeria</h3></a>
+            </li>
+          </ul>
+
+
+          <a class="nav-link text-white"> <button  type="button" class="btn btn-outline-success bg-danger text-white" id="boton-suscripcion" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo"><h3>Suscripcion</h3></button></a>
+            <button class="btn btn-outline-success bg-danger text-white" type="submit">
+             <a class="text-white text-decoration-none" target="_blank" href="./login.html"><h3>Login</h3></a> 
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Suscribete</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+        </div>
+
+        <div class="modal-body">
+
+            <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Recibe novedades en tu correo completando estos datos:</label>
+                
+            </div>
+
+            <form>
+                <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Nombre:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                </div>
+
+                <div class="mb-3">
+                    <label for="message-text" class="col-form-label">Direccion de correo electronico:</label>
+                    <input type="email" class="form-control" id="recipient-name">
+                </div>
+            </form>
+        </div>
+
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-danger text-white"> <a href="./error.html"> Enviar</a></button>
+        </div>
+
+    
+
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+  <body id="bodygaleria">
+    <div id="contenido-galeria">
+    <div id="galeriatitulo" class="titulo">
+      <h1>
+        Aprovecha nuestras <br />
+        increibles promos
+      </h1>
+    </div>
+    <section id="galeria" class="container">
+      <div class="text-center pt-5"></div>
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-12 mt-5">
+          <img src="img/10.jpg" alt="galeria" />
+          <p id="combo" class="bg-warning text-center">Promo 1</p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mt-5">
+          <img src="img/11.jpg" alt="galeria" />
+          <p id="combo" class="bg-warning text-center">Promo 2</p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mt-5">
+          <img src="img/12.jpg" alt="galeria" />
+          <p id="combo" class="bg-warning text-center">Promo 3</p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mt-5">
+          <img src="img/7.jpg" alt="galeria" />
+          <p id="combo" class="bg-warning text-center">Promo 4</p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mt-5">
+          <img src="img/8.jpg" alt="galeria" />
+          <p id="combo" class="bg-warning text-center">Promo 5</p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mt-5">
+          <img src="img/9.jpg" alt="galeria" />
+          <p id="combo" class="bg-warning text-center">Promo 6</p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mt-5">
+          <img
+            src="img/concurso san valentin - post cuadrado.jpg"
+            alt="galeria"
+          />
+          <p id="combo" class="bg-warning text-center">Promo 7</p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mt-5">
+          <img src="img/EXq6CViUYAEq3Hl.jpg" alt="" />
+          <p id="combo" class="bg-warning text-center">Promo 8</p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mt-5">
+          <img src="img/images (1).jpg" alt="galeria" />
+          <p id="combo" class="bg-warning text-center">Promo 9</p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mt-5">
+          <img src="img/images (2).jpg" alt="galeria" />
+          <p id="combo" class="bg-warning text-center">Promo 10</p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mt-5">
+          <img src="img/images.jpg" alt="galeria" />
+          <p id="combo" class="bg-warning text-center">Promo 11</p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mt-5">
+          <img src="img/McDonalds-Valentin-120221-00.jpg" alt="galeria" />
+          <p id="combo" class="bg-warning text-center">Promo 12</p>
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+    <footer class="text-dark">
+      <div
+        class="container-fluid text-center text-md-center"
+        id="container-fluid-footer"
+      >
+        <div class="container" id="container-footer">
+          <div class="row text-center text-md-center">
+            <div class="col-sm-12 col-md-12 col-lg-4 mt-3" id="col-footer">
+              <div class="container" id="container-img-footer">
+                <img
+                  src="./img/image_720.png"
+                  alt="logo"
+                  id="img-logo-footer"
+                />
+              </div>
+            </div>
+  
+            <div id="col-footer" class="col-sm-12 col-md-12 col-lg-4 mt-3">
+              <h4>Horarios de atencion</h4>
+              <br />
+              <p>LUNES A JUEVES <br />09:30 a 22:30</p>
+  
+              <br />
+              <p>
+                VIERNES A DOMINGOS <br />
+                09:30 A 02:00
+              </p>
+            </div>
+  
+            <div id="redes-footer" class="col-sm-12 col-md-12 col-lg-4 mt-3">
+              <div class="container">
+                <h4 class="text-white mb-4">Nuestras redes sociales</h4>
+  
+                <div id="lista-redes-footer" class="container">
+                  <ul>
+                    <li>
+                      <a
+                        class="fa fa-facebook"
+                        target="_blank"
+                        href="https://www.facebook.com/McDonaldsArgentina"
+                      ></a
+                      >Facebook
+                    </li>
+                    <li>
+                      <a
+                        class="fa fa-twitter"
+                        target="_blank"
+                        href="https://twitter.com/McDonalds_Ar?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                      ></a
+                      >Twitter
+                    </li>
+                    <li>
+                      <a
+                        class="fa fa-youtube"
+                        target="_blank"
+                        href="https://www.youtube.com/channel/UCJU05Y3ZwGL4rwp-B8sV_-Q"
+                      ></a
+                      >Youtube
+                    </li>
+                    <li>
+                      <a
+                        class="fa fa-instagram"
+                        target="_blank"
+                        href="https://www.instagram.com/mcdonalds_ar/?hl=es-la"
+                      ></a
+                      >Instagram
+                    </li>
+                  </ul>
+                </div>
+              </div>
+  
+              <br />
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div id="small-footer">
+        <small
+          >&copy; 2023 <b>McDonald's</b> - todos los derechos reservados.</small
+        >
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/9e81103204.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+
+
+</html>
